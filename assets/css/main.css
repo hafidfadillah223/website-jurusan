@@ -1856,3 +1856,7 @@ section,
 .pw:hover {
   color: var(--accent-color);
 }
+
+.counter-plus::after {
+  content: "+";
+}
