@@ -1841,10 +1841,6 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
-
 .item {
   margin-bottom: 30px;
 }
@@ -1859,4 +1855,13 @@ section,
 
 .counter-plus::after {
   content: "+";
+}
+
+.border-orange {
+  color: var(--accent-color);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
 }
